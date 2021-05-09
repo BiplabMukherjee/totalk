@@ -1,0 +1,39 @@
+body {
+    background-color: black;
+}
+
+.logo {
+    display: block;
+    margin: auto;
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+}
+
+.container {
+    width: 900px;
+    height: 60vh;
+    border-radius: 15px;
+    padding: 5px;
+    margin: auto;
+    background-color: rgb(230, 247, 241);
+}
+
+.message {
+    margin-bottom: 10px;
+    background-color: blanchedalmond;
+    clear: both;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+    color: rgb(4, 80, 4);
+}
+.sendbox {
+    text-align: center;
+    margin: 10px;
+}
