@@ -1,7 +1,3 @@
-body {
-    background-color: black;
-}
-
 .logo {
     display: block;
     margin: auto;
@@ -11,17 +7,22 @@ body {
 }
 
 .container {
-    width: 900px;
+    width: 70%;
     height: 60vh;
     border-radius: 15px;
     padding: 5px;
     margin: auto;
-    background-color: rgb(230, 247, 241);
+    overflow-y: scroll;
+    background-color: rgb(195, 195, 240);
 }
 
 .message {
-    margin-bottom: 10px;
-    background-color: blanchedalmond;
+    width: 60%;
+    padding: 1%;
+    margin: 1%;
+    border-color: black;
+    border-radius: 10px;
+    background-color: rgb(205, 205, 228);
     clear: both;
 }
 
@@ -36,4 +37,15 @@ body {
 .sendbox {
     text-align: center;
     margin: 10px;
+}
+
+.main{
+    margin: auto;
+    height: 400px;
+    width: 30%;
+    background-color: bisque;
+    
+}
+.register {
+   padding: 10%;
 }
