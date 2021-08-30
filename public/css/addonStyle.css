@@ -17,6 +17,5 @@ body {
 .msg-container {
     max-height: 80vh;
     overflow-y: scroll;
-    background-color: black;
 
 }
