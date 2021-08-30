@@ -1,0 +1,91 @@
+body {
+    background-color: rgb(31, 41, 58);
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+}
+
+.register {
+    background-color: rgb(82 131 150);
+    border-radius: 10%;
+    padding: 5%;
+    box-shadow: 2px 5px 15px #f7efef;
+    color: #feffff;
+    font-family: cursive;
+    font-size: larger;
+ }
+
+ input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 2%;
+  }
+
+  select {
+      font-size: large;
+      font-family: cursive;
+      color: teal;
+      border-radius: 5px;
+  }
+
+  input[type=submit] {
+      background-color: rgb(70, 54, 214);
+      color: whitesmoke;
+      font-size: medium;
+      font-weight: bold;
+  }
+
+.logo {
+    display: block;
+    margin: auto;
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+}
+
+.flex-container {
+    display: flex;
+    width: 70%;
+    height: 60vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container {
+    /* border-radius: 15px;
+    padding: 5px;
+    margin: auto;
+    overflow-y: scroll;
+    background-color: rgb(195, 195, 240); */
+}
+
+.message {
+    width: 60%;
+    padding: 1%;
+    margin: 1%;
+    border-color: black;
+    border-radius: 10px;
+    background-color: rgb(205, 205, 228);
+    clear: both;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+    color: rgb(4, 80, 4);
+}
+.sendbox {
+    /* text-align: center;
+    margin: 10px; */
+}
+

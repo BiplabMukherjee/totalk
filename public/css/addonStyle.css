@@ -1,0 +1,15 @@
+body {
+    min-height: 100vh;
+    overflow: auto;
+}
+
+.main-content {
+    min-height: 80vh;
+}
+
+.message {
+    background-color: cornflowerblue;
+    padding: 4px;
+    margin-bottom: 2px;
+    border-radius: 10px;
+}
